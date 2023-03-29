@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(41, 41, 56);
+  color: white;
+}
+.color-platano {
+  color: yellow;
+}
+
+.bg-title {
+  background-color: bisque;
+  color: black;
+}
+
+.color-text {
+  color: rgb(207, 207, 220);
+  /* background: rgb(76, 76, 152); */
+}
