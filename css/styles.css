@@ -1,18 +1,52 @@
 body {
   font-family: sans-serif;
-  background-color: rgb(41, 41, 56);
-  color: white;
+  /* background-color: rgb(41, 41, 56); */
+  color: rgb(31, 30, 30);
 }
 .color-platano {
   color: yellow;
 }
 
 .bg-title {
-  background-color: bisque;
-  color: black;
+  color: rgb(218, 212, 212);
 }
 
 .color-text {
-  color: rgb(207, 207, 220);
+  color: rgb(32, 32, 33);
   /* background: rgb(76, 76, 152); */
+}
+
+.caja {
+  background-color: rgb(195, 195, 201);
+  opacity: 0.9;
+  /* mix-blend-mode: normal;
+  mix-blend-mode: multiply;
+  mix-blend-mode: screen;
+  mix-blend-mode: overlay; */
+}
+
+.span-yellow {
+  color: yellow;
+}
+
+.span-blue {
+  background-color: rgb(12, 12, 165);
+  color: #fff;
+}
+
+.span-purple {
+  color: #8a2b8a;
+}
+
+.bg-black {
+  background: #000;
+}
+
+.bg-plomo {
+  background-color: rgb(235, 233, 233);
+}
+
+.text-red {
+  color: #aa0929;
+  text-decoration: underline;
 }
