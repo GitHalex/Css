@@ -45,3 +45,40 @@ a {
   font-weight: bolder;
   text-align: justify;
 }
+@font-face {
+  font-family: "Chales";
+  src: url("../assets/ChangaOne-Italic.ttf");
+}
+
+.title {
+  font-family: "Chales", sans-serif;
+}
+
+@font-face {
+  font-family: "TextoCurva";
+  src: url("../assets/Alkatra-VariableFont_wght.ttf");
+}
+
+.tamanio {
+  font-family: "TextoCurva", sans-serif;
+}
+
+.texto-uppercase {
+  text-transform: uppercase;
+  text-align: justify;
+}
+.texto-edit {
+  text-align: justify;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+.oblicue {
+  font-style: oblique;
+}
+
+.text-bold {
+    font-weight: bold/* .tamanio {
+} */;
