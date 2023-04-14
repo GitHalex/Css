@@ -58,6 +58,9 @@ ul {
   color: red;
   width: 20rem;
   text-align: justify;
+  background-color: blue;
+  max-height: 10rem;
+  min-height: 5rem;
 }
 
 .parrafo2 {
@@ -73,4 +76,11 @@ ul {
   width: 20rem;
   margin-left: 40rem;
   text-align: justify;
+}
+
+.estilos-palabra {
+  font-size: 2rem;
+  text-decoration: underline;
+  background-color: yellow;
+  opacity: 0.3;
 }
