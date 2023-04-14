@@ -1,5 +1,7 @@
 body {
   font-family: sans-serif;
+  background-color: rgb(6, 146, 151);
+  color: #fff;
 }
 
 html {
@@ -10,4 +12,65 @@ html {
 *::after,
 *::before {
   box-sizing: inherit;
+}
+a {
+  color: #fff;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+}
+img {
+  display: block;
+  margin: auto;
+}
+
+/* img:hover {
+  background-color: aqua;
+} */
+
+/* pre {
+  text-align: center;
+  font-size: small;
+} */
+.detalle {
+  font-size: 1.5rem;
+  text-align: center;
+  font-style: oblique;
+  margin-bottom: -10rem;
+}
+
+.modelo {
+  margin: auto;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.parrafos {
+  background-color: #fff;
+}
+
+.parrafo1 {
+  color: red;
+  width: 20rem;
+  text-align: justify;
+}
+
+.parrafo2 {
+  color: yellow;
+  width: 20rem;
+  margin-left: 20rem;
+  text-align: justify;
+  min-width: 5rem;
+}
+
+.parrafo3 {
+  color: green;
+  width: 20rem;
+  margin-left: 40rem;
+  text-align: justify;
 }
