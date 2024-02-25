@@ -4,12 +4,21 @@ body {
   color: rgb(31, 30, 30);
   margin: 2px;
 }
+
+:root {
+  --color-amarillo: #ecd078;
+  --color-naranja: #d95b43;
+  --color-rojo: #c02942;
+  --fuente-titulo: "Arial";
+}
+
 .color-platano {
   color: yellow;
 }
 
 .fondo {
   background-color: rgb(228, 134, 134);
+  border-radius: 10px;
 }
 
 .bg-title {
@@ -32,15 +41,10 @@ div > p {
   /* background: rgb(76, 76, 152); */
   text-align: center;
   background-color: crimson;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   font-variant: small-caps;
   /* font-weight: bold; */
-}
-
-:root {
-  --color-amarillo: #ecd078;
-  --color-naranja: #d95b43;
-  --color-rojo: #c02942;
-  --fuente-titulo: "Arial";
 }
 
 h1 {
