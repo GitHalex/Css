@@ -1,6 +1,7 @@
 html {
   box-sizing: border;
   font-family: sans-serif;
+  scroll-behavior: smooth;
 }
 *,
 *::after,
