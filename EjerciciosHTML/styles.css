@@ -12,6 +12,8 @@ html {
 img {
   max-width: 100%;
   height: auto;
+  border-radius: 50%;
+  display: block;
 }
 .portada {
   background-color: black;
@@ -23,4 +25,15 @@ td {
 }
 .fondo {
   background-color: rgba(0, 0, 0, 0.712);
+}
+
+table,
+th,
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th,
+td {
+  background-color: #96d4d4;
 }
