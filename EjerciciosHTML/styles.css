@@ -16,6 +16,11 @@ img {
 .portada {
   background-color: black;
 }
-.portada th {
+.portada th,
+td {
   color: white;
+  /* background-color: orange; */
+}
+.fondo {
+  background-color: rgba(0, 0, 0, 0.712);
 }
