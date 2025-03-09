@@ -13,3 +13,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+.portada {
+  background-color: black;
+}
+.portada th {
+  color: white;
+}
