@@ -57,51 +57,59 @@
 <!--Contenido de la web-->
 
 <body>
-  Tu HTML
-  <p>Estoy aprendiendo <abbr title="Hypertext Markup Language">HTML</abbr> por las mañanas.</p>
-  <details>
-    <summary>Factura a</summary>
-    <ul>
-      <li>Vino blanco: 12€</li>
-      <li>Aceitunas: 3€</li>
-    </ul>
-    <p>Total: 15€</p>
-  </details>
-  <br>
-  <label>¿Cual es tu personaje favorito de Harry Potter?:
-    <input list="personajes-harry-potter" type="text" name="personaje-favorito">
-  </label>
 
-  <datalist id="personajes-harry-potter">
-    <option value="Harry Potter"></option>
-    <option value="Ron Weasley"></option>
-    <option value="Hermione Granger"></option>
-    <option value="Lord Voldemort"></option>
-    <option value="Albus Dumbledore"></option>
-  </datalist>
-  <br>
-  <br><br><br>
-  <progress max="100" value="30">30%</progress>
+  <header>
+    <h1>Mi Perfil</h1>
+  </header>
 
-  <br><br><br><br>
-  <label>
-    Temperatura
-    <meter id="temperature" min="-275" max="100" value="28">
-      28
-    </meter>
-  </label>
+  <section class="perfil">
+    <img src="img/perfil.jpg" alt="Foto de Perfil">
+    <h2>Hanyinson Alex</h2>
+    <p>Desarrollador Web | DevOps | Cloud Enthusiast</p>
+  </section>
 
-  <br><br><br><br><br><br>
-  <label>
-    Batería
-    <meter id="battery" min="0" max="100" low="60" high="80" optimum="85" value="65">
-      Entre 60 y 80
-    </meter>
-  </label>
+  <section class="habilidades">
+    <h2>Habilidades y Características</h2>
 
-  <br><br><br><br><br><br><br>
-  <dialog open>¡Has sido registrado con éxito!</dialog>
-  <br>
+    <div class="skill">
+      <p>HTML</p>
+      <div class="progress-bar">
+        <div class="progress html" style="width: 90%;">90%</div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <p>Photoshop/Gimp</p>
+      <div class="progress-bar">
+        <div class="progress photoshop" style="width: 50%;">50%</div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <p>Belleza</p>
+      <div class="progress-bar">
+        <div class="progress belleza" style="width: 75%;">75%</div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <p>Hambre</p>
+      <div class="progress-bar">
+        <div class="progress hambre" style="width: 100%;">100%</div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <p>Salud</p>
+      <div class="progress-bar">
+        <div class="progress salud" style="width: 80%;">80%</div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Mi Perfil - Todos los derechos reservados</p>
+  </footer>
 
 
 
