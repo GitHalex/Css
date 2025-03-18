@@ -107,6 +107,69 @@
     </div>
   </section>
 
+  <section class="habilidades">
+    <figure class="perfil">
+      <img src="img/Mackbook.jpg" alt="Mackook">
+      <figcaption><em>Computadoras portatiles</em></figcaption>
+    </figure>
+    <details>
+      <summary>¿Como se llama?</summary>
+      <h3>Mackook</h3>
+      <p>
+        Apple · MacBook Air. Nuevo color azul cielo. Rendimiento por las nubes con el chip M4. Consulta la
+        disponibilidad más
+        adelante
+
+      </p>
+    </details>
+    <details>
+      <summary>¿Quien es el autor?</summary>
+      <p>Mac Studio. Chips M4 Max y M</p>
+    </details>
+
+    <details>
+      <summary>¿Cundo fue contruido?</summary>
+      <p>2025</p>
+    </details>
+
+  </section>
+
+  <div class="perfil">
+    <h1>Buscador de Smartphones</h1>
+
+    <div class="search-box">
+      <label for="brand">Marca:</label>
+      <input type="text" id="brand" list="brand-list" placeholder="Escribe una marca...">
+      <datalist id="brand-list">
+        <option value="Apple">
+        <option value="Samsung">
+        <option value="Xiaomi">
+        <option value="Huawei">
+        <option value="OnePlus">
+        <option value="Google">
+        <option value="Motorola">
+        <option value="Sony">
+      </datalist>
+    </div>
+
+    <div class="search-box">
+      <label for="price">Rango de precio:</label>
+      <select id="price">
+        <option value="0-200">$0 - $200</option>
+        <option value="201-500">$201 - $500</option>
+        <option value="501-1000">$501 - $1000</option>
+        <option value="1001-2000">$1001 - $2000</option>
+        <option value="2001+">Más de $2000</option>
+      </select>
+    </div>
+
+    <button id="search-btn">Buscar</button>
+
+    <div id="results"></div>
+  </div>
+
+  <script src="script.js"></script>
+
   <footer>
     <p>© 2025 Mi Perfil - Todos los derechos reservados</p>
   </footer>

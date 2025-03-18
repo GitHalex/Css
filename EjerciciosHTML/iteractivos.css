@@ -82,3 +82,92 @@ footer {
   padding: 10px;
   margin-top: 20px;
 }
+
+details {
+  background-color: rgb(114, 114, 235); /* Azul suave */
+  color: white; /* Texto en blanco para mejor contraste */
+  margin-top: 10px;
+  font-style: italic;
+  text-align: left;
+  padding: 10px 15px; /* Espaciado interno */
+  border-radius: 8px; /* Bordes redondeados */
+  width: 90%; /* Ajuste para hacerlo más responsivo */
+  max-width: 600px; /* Evita que sea demasiado ancho */
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+  cursor: pointer; /* Hace que parezca clickeable */
+  transition: all 0.3s ease-in-out; /* Suaviza cambios */
+}
+
+/* Cambia el estilo cuando se expande */
+details[open] {
+  background-color: rgb(87, 87, 219); /* Un tono más oscuro al expandirse */
+  padding-bottom: 15px;
+}
+
+/* Estilo para el resumen dentro de <details> */
+details summary {
+  font-weight: bold;
+  font-style: normal;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  details {
+    width: 95%;
+  }
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.search-box {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#results {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
