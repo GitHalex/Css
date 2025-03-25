@@ -1,0 +1,61 @@
+:root {
+  --color-amarillo: #ecd078;
+  --color-naranja: #eb765f;
+  --color-rojo: #c02942;
+  --fuente-titulo: sans-serif;
+  --color-container: #f0efefee;
+  --color-fondo: #191970;
+  /* Colors */
+  --color-black: #000;
+  --color-white: #fff;
+  --color-primary: ...;
+  --color-secondary: ...;
+  /* Fonts */
+  --font-heading: ...;
+  --font-body: ...;
+  /* Gaps */
+  --gap-s: 0.9rem;
+  --gap-m: 1rem;
+  --gap-l: 1.5rem;
+  --gap-xl: 2rem;
+  --gap-xxl: 3rem;
+}
+body {
+  background: var(--color-fondo);
+  color: white;
+  font-family: var(--fuente-titulo);
+}
+
+h1 {
+  color: var(--color-naranja);
+  font-family: var(--fuente-titulo);
+  font-size: 2em;
+}
+header {
+  background-color: var(--color-fondo);
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(241, 66, 66);
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: underline;
+  font-size: 2em;
+}
+
+.rectangulo {
+  --altura: 100px;
+  width: calc(var(--altura) * 2);
+  height: var(--altura);
+
+  background-color: var(--color-container);
+  margin: 50px auto;
+  border: 2px solid #2980b9;
+  border-radius: 3%;
+}
+.rectangulo:hover {
+  background-color: var(--color-black);
+}
