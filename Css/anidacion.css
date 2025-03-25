@@ -1,0 +1,61 @@
+:root {
+  --color-amarillo: #ecd078;
+  --color-naranja: #eb765f;
+  --color-rojo: #c02942;
+  --fuente-titulo: sans-serif;
+  --color-container: #f0efefee;
+  --color-fondo: #191970;
+  /* Colors */
+  --color-black: #000;
+  --color-white: #fff;
+  --color-primary: ...;
+  --color-secondary: ...;
+  /* Fonts */
+  --font-heading: ...;
+  --font-body: ...;
+  /* Gaps */
+  --gap-s: 0.9rem;
+  --gap-m: 1rem;
+  --gap-l: 1.5rem;
+  --gap-xl: 2rem;
+  --gap-xxl: 3rem;
+}
+
+body {
+  font-family: var(--fuente-titulo);
+  background: var(--color-container);
+}
+h1 {
+  color: var(--color-rojo);
+  text-align: center;
+}
+.planeta {
+  background: var(--color-fondo);
+  margin: 20px;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+/* .planeta .planeta__titulo {
+  color: var(--color-naranja);
+  font-style: oblique;
+  text-decoration: underline;
+}
+.planeta__descripcion {
+  color: var(--color-white);
+} */
+/* .planeta--marte .planeta__titulo {
+  color: white;
+}
+
+.planeta--marte .planeta__descripcion {
+  color: gray;
+} */
+.planeta--marte {
+  .planeta__titulo {
+    color: var(--color-white);
+  }
+
+  .planeta__descripcion {
+    color: gray;
+  }
+}
