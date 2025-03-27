@@ -34,6 +34,7 @@ h1 {
   margin: 20px;
   padding: 10px 10px;
   border-radius: 5px;
+  color: rgb(255, 255, 255);
 }
 /* .planeta .planeta__titulo {
   color: var(--color-naranja);
@@ -50,12 +51,78 @@ h1 {
 .planeta--marte .planeta__descripcion {
   color: gray;
 } */
-.planeta--marte {
+
+/* Usando la anidacion */
+/* .planeta--marte {
   .planeta__titulo {
     color: var(--color-white);
   }
 
   .planeta__descripcion {
     color: gray;
+  }
+}
+ */
+
+/* Usando & */
+/* .planeta {
+  &.planeta--marte {
+    background-color: red;
+  }
+  &.planeta--jupiter {
+    background-color: pink;
+  }
+}
+ */
+
+.planeta {
+  &.planeta--marte {
+    .planeta__titulo {
+      color: red;
+    }
+
+    .planeta__descripcion {
+      color: gray;
+    }
+  }
+
+  &.planeta--jupiter {
+    .planeta__titulo {
+      color: orange;
+    }
+
+    .planeta__descripcion {
+      color: green;
+    }
+  }
+}
+
+/* .planeta {
+  background-color: blue;
+  &:hover {
+    background-color: red;
+  }
+} */
+
+.planeta {
+  background-color: rgb(152, 152, 250);
+  &:hover {
+    background-color: red;
+  }
+  &::before {
+    content: "🪐";
+  }
+  &::after {
+    content: "🌎";
+  }
+}
+
+.planeta {
+  &.planeta--marte {
+    background-color: red;
+
+    @media (width < 600px) {
+      background-color: yellow;
+    }
   }
 }
