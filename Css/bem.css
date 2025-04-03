@@ -1,0 +1,20 @@
+html {
+  box-sizing: border;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.boton {
+  border-radius: 2rem;
+  background: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.boton--desactivado {
+  opacity: 0.5;
+}
