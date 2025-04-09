@@ -7,3 +7,18 @@ html {
 *::before {
   box-sizing: inherit;
 }
+
+body {
+  font-family: sans-serif;
+}
+
+main {
+  background: #ccc;
+  color: black;
+  padding: 5px 50px;
+}
+p {
+  border: thin solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
