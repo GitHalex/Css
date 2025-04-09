@@ -31,3 +31,26 @@ p {
   background: blue;
   color: white;
 }
+
+.negro {
+  background: black;
+  color: black;
+}
+
+.bg-claro {
+  background-color: #eeeeee;
+  color: red;
+  font-family: monospace;
+  padding: 5px 20px;
+}
+hr {
+  color: #ccc;
+}
+article > p {
+  color: #757474;
+}
+
+.bg-oscuro {
+  background-color: #ccc;
+  border: none;
+}
