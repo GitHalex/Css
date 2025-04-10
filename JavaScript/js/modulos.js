@@ -1,5 +1,4 @@
-const DOMTitulo = document.querySelector("#titulo");
-const colorTitulo = DOMTitulo.style.color;
+import { PI, usuario } from "./constantes.js";
+console.log("Archivos modulos");
 
-console.log(colorTitulo);
-// orange
+console.log(PI, usuariomysqk);
