@@ -31,6 +31,7 @@ body {
   font-family: sans-serif;
   text-align: right;
   text-decoration: line-through;
+  text-align: center;
 }
 
 .container {
@@ -53,4 +54,12 @@ body {
   font-family: sans-serif;
   font-style: italic;
   text-align: justify;
+}
+
+.caveat-parrafo {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding-right: 5px;
 }
