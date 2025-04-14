@@ -22,7 +22,9 @@ body {
 }
 .titulo:hover {
   color: #ccc;
-  font-size: 4rem;
+  font-size: 3rem;
+  color: blue;
+  font-style: oblique;
 }
 
 .autor {
@@ -37,6 +39,7 @@ body {
   height: 70%;
   margin: auto;
   padding: 10px;
+  box-shadow: 5px 10px 8px 10px #c4bfbf;
 }
 
 .prologo {
@@ -49,4 +52,5 @@ body {
 .parrafo-dos {
   font-family: sans-serif;
   font-style: italic;
+  text-align: justify;
 }
