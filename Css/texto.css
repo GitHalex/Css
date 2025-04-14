@@ -9,26 +9,44 @@ html {
 }
 
 body {
-  font-family: sans-serif;
   background: #ece8e8;
 }
-
-.textos {
-  font-size: 2.5rem;
+.titulo {
+  font-family: sans-serif;
   font-style: italic;
-  font-style: oblique 10deg;
-  /* font-variant: small-caps; */
-  font-weight: bold;
-
-  text-transform: none;
-
-  text-align: start;
-  text-align: end;
-  text-align: left;
-  text-align: right;
+  font-variant: small-caps;
+  font-weight: lighter;
   text-align: center;
-  /* text-align: justify; */
-  word-spacing: 1.2rem;
+  word-spacing: 2rem;
+  text-decoration: underline;
+}
+.titulo:hover {
+  color: #ccc;
+  font-size: 4rem;
+}
 
-  letter-spacing: 1.2rem;
+.autor {
+  font-family: sans-serif;
+  text-align: right;
+  text-decoration: line-through;
+}
+
+.container {
+  background: #ccc;
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  padding: 10px;
+}
+
+.prologo {
+  font-family: sans-serif;
+  text-transform: lowercase;
+  text-align: right;
+}
+
+.parrafo-uno,
+.parrafo-dos {
+  font-family: sans-serif;
+  font-style: italic;
 }
