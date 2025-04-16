@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: "Playwrite MX Guides", cursive;
+  font-family: "Style Script", cursive;
   font-weight: 400;
   font-style: normal;
 }
@@ -26,13 +26,37 @@ main {
 .sub-titulo {
   color: white;
   text-align: center;
+  margin: 0;
+  font-size: 3rem;
 }
 
 img {
   max-width: 100%;
   height: auto;
+  opacity: 60%;
 }
 figcaption {
   text-align: right;
   color: white;
+}
+p {
+  color: white;
+}
+article {
+  background: #ccc;
+  padding: 5px;
+}
+
+.primero {
+  /* font-size: 1rem; */
+  width: 40%;
+  background: rgba(201, 1, 1, 0.486);
+}
+.segundo {
+  width: 70%;
+  background-color: rgba(201, 1, 1, 0.486);
+}
+.tercero {
+  width: 100%;
+  background-color: rgba(201, 1, 1, 0.486);
 }
