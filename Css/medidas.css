@@ -51,12 +51,27 @@ article {
   /* font-size: 1rem; */
   width: 40%;
   background: rgba(201, 1, 1, 0.486);
+  /* min-height: 5rem;
+  max-height: 10rem; */
 }
 .segundo {
   width: 70%;
   background-color: rgba(201, 1, 1, 0.486);
+  max-height: 10rem;
+  min-height: 5rem;
 }
 .tercero {
   width: 100%;
   background-color: rgba(201, 1, 1, 0.486);
+  max-height: 10rem;
+  min-height: 5rem;
+}
+
+.palabra {
+  font-style: italic;
+  font-family: sans-serif;
+  /* font-display: ; */
+  background-color: rgba(122, 158, 242, 0.5);
+  text-decoration: underline;
+  color: black;
 }
