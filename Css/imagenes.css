@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+img,
+video {
+  max-width: 50%;
+  height: auto;
+  aspect-ratio: auto; /* Por defecto */
+  aspect-ratio: 1 / 1; /* Cuadrado */
+  aspect-ratio: 16 / 9; /* Un ejemplo horizontal */
+  aspect-ratio: 1; /* Simplificacion cuadrado */
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+}
