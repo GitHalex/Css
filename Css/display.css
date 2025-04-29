@@ -7,3 +7,21 @@ html {
 *::before {
   box-sizing: inherit;
 }
+
+a {
+  display: block;
+  background-color: yellow;
+  width: 30rem;
+  text-align: center;
+  /* display: none; */
+  /* content-visibility: hidden;
+  content-visibility: visible;
+  content-visibility: auto; */
+}
+
+p:nth-child(even) {
+  background-color: yellow;
+}
+p {
+  display: inline;
+}

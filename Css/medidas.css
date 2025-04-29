@@ -74,4 +74,5 @@ article {
   background-color: rgba(122, 158, 242, 0.5);
   text-decoration: underline;
   color: black;
+  display: block;
 }
