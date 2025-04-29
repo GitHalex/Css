@@ -110,9 +110,6 @@ section {
   border-radius: 10px;
 }
 
-.contact-card__nav {
-}
-
 .contact-card__list {
   list-style: none;
   display: flex;
