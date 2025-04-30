@@ -25,3 +25,24 @@ p:nth-child(even) {
 p {
   display: inline;
 }
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.menu li a {
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-olor 0.3s;
+}
+.menu li a:hover {
+  background-color: #0056b3;
+}
