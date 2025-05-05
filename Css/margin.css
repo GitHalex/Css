@@ -7,3 +7,32 @@ html {
 *::before {
   box-sizing: inherit;
 }
+
+header {
+  background: #ccc;
+  width: 20rem;
+  height: 40rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.elemento {
+  margin-top: 1rem;
+  text-align: center;
+  font-style: italic;
+  margin-right: 2rem;
+  margin-bottom: 3rem;
+  margin-left: 4rem;
+  /* margin-inline: 5rem; */
+  /* margin-inline: 6rem 1rem; */
+  text-align: center;
+}
+.parrafo {
+  margin-top: -3rem;
+}
+
+.gracias {
+  text-align: center;
+  margin-bottom: 10rem;
+}
