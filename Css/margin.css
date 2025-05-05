@@ -49,8 +49,8 @@ p {
   color: rgb(51, 48, 48);
   padding: 12px 24px;
   border: none;
-  width: 250px;
-  border-radius: 8px;
+  width: 160px;
+  border-radius: 30px;
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
