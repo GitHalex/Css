@@ -61,3 +61,57 @@ p {
 .btn-register:hover {
   background-color: #89e08d; /* Más oscuro al pasar el mouse */
 }
+.todo-centro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bg-image {
+  margin-top: 2rem;
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/cafeteria.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-register1 {
+  background-color: #bd4e0f; /* Verde moderno */
+  color: rgb(243, 235, 235);
+  padding: 12px 24px;
+  border: none;
+  width: 180px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+
+.btn-register1:hover {
+  background-color: #89e08d; /* Más oscuro al pasar el mouse */
+}
+
+/* Estilo del footer */
+.footer {
+  background-color: rgba(133, 71, 14, 0.904);
+  color: white;
+  width: 100%;
+  padding: 1rem; /* espaciado interno */
+  text-align: center;
+}
+.separador {
+  font-size: 5rem;
+  font-size: 10rem;
+}
