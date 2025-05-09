@@ -111,7 +111,11 @@ p {
   padding: 1rem; /* espaciado interno */
   text-align: center;
 }
+
 .separador {
-  font-size: 5rem;
-  font-size: 10rem;
+  width: 60px; /* Largo de la línea */
+  height: 3px; /* Grosor de la línea */
+  background-color: rgb(245, 241, 241); /* Color de la línea */
+  margin: 0.1rem auto; /* Centrado y espacio vertical */
+  border-radius: 2px; /* Bordes redondeados (opcional) */
 }
