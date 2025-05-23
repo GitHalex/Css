@@ -91,5 +91,22 @@ body {
 }
 
 .articulo {
-  background-color: white;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0rem 10rem;
+}
+
+.separar {
+  border: thin solid red;
+}
+
+.separar > * {
+  padding: 10px;
+  justify-content: left;
+}
+
+.precio {
+  font-size: 2rem;
+  margin: 0;
 }
