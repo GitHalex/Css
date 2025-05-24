@@ -58,6 +58,7 @@ body {
   border-radius: 6px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-left: 2rem;
 }
 
 .bg-button:hover {
@@ -109,4 +110,27 @@ body {
 .precio {
   font-size: 2rem;
   margin: 0;
+}
+
+.lista-check {
+  list-style: none;
+  padding-left: 0;
+  margin: 2rem 0;
+}
+
+.lista-check li {
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.lista-check li::before {
+  content: "✔️";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: green;
+  font-size: 1.2rem;
 }
