@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 16px;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.elemento {
+  width: 50%;
+  height: 50vh;
+  margin-top: 1rem;
+  background-color: #ccc;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  /*
+    border-top: [tamaño] [estilo] [color];
+    */
+  border-top: 1px solid red;
+  border-right: 1px solid blueviolet;
+  border-bottom: 1px solid green;
+  border-left: 1px solid yellow;
+
+  /* Tamaño del brode */
+  border-width: 2rem;
+
+  border-style: hidden;
+  border-style: dotted;
+  border-style: dashed;
+  border-style: double;
+  border-style: groove;
+  border-style: ridge;
+  border-style: inset;
+  border-style: outset;
+
+  border-radius: 4rem;
+
+  border: 4rem solid;
+  border-image: linear-gradient(#f6b73c, #4d9f0c) 1;
+}
