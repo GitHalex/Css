@@ -13,35 +13,31 @@ html {
 }
 
 .elemento {
-  width: 50%;
-  height: 50vh;
-  margin-top: 1rem;
-  background-color: #ccc;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+img {
   border: 1px solid black;
-  /*
-    border-top: [tamaño] [estilo] [color];
-    */
-  border-top: 1px solid red;
-  border-right: 1px solid blueviolet;
-  border-bottom: 1px solid green;
-  border-left: 1px solid yellow;
+  margin: 1rem;
+  padding: 1rem;
+  border: 2rem solid orange;
+}
 
-  /* Tamaño del brode */
-  border-width: 2rem;
+.nivel2 {
+  border-top: 2rem solid orange;
+  border-bottom: 2rem solid orange;
+  border-left: 2rem dashed orange;
+  border-right: 2rem dashed orange;
+}
 
-  border-style: hidden;
-  border-style: dotted;
-  border-style: dashed;
-  border-style: double;
-  border-style: groove;
-  border-style: ridge;
-  border-style: inset;
-  border-style: outset;
-
+.nivel3 {
+  border: 2rem solid red;
   border-radius: 4rem;
+}
 
+.nivel4 {
   border: 4rem solid;
-  border-image: linear-gradient(#f6b73c, #4d9f0c) 1;
+  border-image: linear-gradient(#3cf0f6, #e92107) 1;
 }
