@@ -10,3 +10,17 @@ html {
   box-sizing: inherit;
   margin: 0;
 }
+
+.elemento {
+  overflow: scroll;
+}
+
+.elemento {
+  overflow: auto;
+  /* Alternativa */
+  overflow: hidden visible;
+}
+
+.elemento {
+  overflow-y: hidden;
+}
