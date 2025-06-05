@@ -11,16 +11,32 @@ html {
   margin: 0;
 }
 
-.elemento {
-  overflow: scroll;
-}
-
-.elemento {
+.caja {
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  /* overflow: visible; valor por defecto */
+  /* overflow: hidden; oculta contenido */
+  /* overflow: scroll; muestra barras de desplazamiento */
   overflow: auto;
-  /* Alternativa */
-  overflow: hidden visible;
 }
 
-.elemento {
-  overflow-y: hidden;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+h2 {
+  margin-top: 30px;
+  color: #333;
+}
+
+.explicacion {
+  width: 100%;
+  max-height: 10rem;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
 }
