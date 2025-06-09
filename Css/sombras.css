@@ -1,0 +1,24 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+.elemento {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #00ff00;
+  width: 200px;
+  height: 200px;
+  box-shadow: none;
+  box-shadow: 2rem 1rem orange;
+  box-shadow: 2rem 1rem 1rem orange;
+}
