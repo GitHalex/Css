@@ -13,4 +13,13 @@ html {
 .elemento-2 {
   filter: blur(2px);
   filter: brightness(2);
+  filter: contrast(200%);
+  filter: drop-shadow(30px 10px 4px green);
+  filter: grayscale(100%);
+  filter: hue-rotate(90deg);
+  filter: invert(100%);
+  filter: opacity(50%);
+  filter: saturate(50%);
+  filter: sepia(100%);
+  filter: contrast(180%) brightness(30%);
 }
