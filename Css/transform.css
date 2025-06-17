@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.elemento {
+  width: 100px;
+  height: 200px;
+  background-color: #ccc;
+  padding: 10px;
+  border: 1px solid red;
+  transform: translateX(150px);
+  transform: translateY(50px);
+  transform: scale(2);
+}
+
+.elemento {
+  transform-origin: top left;
+  transform: rotate(45deg);
+}
+
+.elemento-1 {
+  transform: skewY(10deg);
+}
+
+.elemento-1 {
+  transform: rotate(45deg);
+}
+
+.elemento-1:hover {
+  transform: skewX(10deg);
+}
