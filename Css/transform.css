@@ -38,3 +38,11 @@ html {
 .elemento-1:hover {
   transform: skewX(10deg);
 }
+
+button:hover {
+  transform: rotate(45deg);
+}
+
+.modal {
+  transform: scale(2);
+}
