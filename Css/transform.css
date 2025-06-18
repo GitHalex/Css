@@ -10,7 +10,62 @@ html {
   margin: 0;
   padding: 0;
 }
+body {
+  margin: 0;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
 
+.modal {
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+/* Aquí está el efecto */
+.modal:hover {
+  transform: scale(5); /* Duplica el tamaño al pasar el mouse */
+}
+
+.contenedor {
+  position: relative;
+  width: 220px;
+  height: 120px;
+}
+
+.circulo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  transition: transform 0.5s ease;
+}
+
+.rojo {
+  background-color: red;
+  left: 0;
+}
+
+.azul {
+  background-color: blue;
+  opacity: 0.5;
+  left: 120px; /* Lo ponemos a la derecha del rojo */
+  cursor: pointer;
+}
+
+.azul:hover {
+  transform: translateX(-100px); /* Mover a la izquierda 100px */
+}
 .elemento {
   width: 100px;
   height: 200px;
@@ -35,7 +90,7 @@ html {
   transform: rotate(45deg);
 }
 
-.elemento-1:hover {
+/* .elemento-1:hover {
   transform: skewX(10deg);
 }
 
@@ -45,4 +100,4 @@ button:hover {
 
 .modal {
   transform: scale(2);
-}
+} */
