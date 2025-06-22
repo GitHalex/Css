@@ -18,3 +18,29 @@ body {
   align-items: center;
   background-color: #f0f0f0;
 }
+
+.elemento {
+  transition-timing-function: ease-in;
+}
+
+.elemento {
+  /* Por defecto */
+  transition-timing-function: ease;
+
+  /* Otras funciones prestablecidas */
+  transition-timing-function: ease-in;
+  transition-timing-function: ease-out;
+  transition-timing-function: ease-in-out;
+  transition-timing-function: linear;
+
+  /* A medida */
+  transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
+}
+
+.elemento {
+  /* Por defecto */
+  transition-delay: 0s;
+
+  /* 1 segundo */
+  transition-delay: 1s;
+}
