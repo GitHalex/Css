@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+@keyframes animacion-rotacion {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+}
+
+.elemento {
+  width: 10rem;
+  height: 10rem;
+  margin-top: 6cqh;
+  margin-left: auto;
+  margin-right: auto;
+  background: orange;
+  animation-name: animacion-rotacion;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+}
