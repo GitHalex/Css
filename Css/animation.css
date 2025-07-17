@@ -18,11 +18,15 @@ body {
   background-color: #f0f0f0;
 }
 @keyframes animacion-rotacion {
-  from {
-    transform: rotate(0deg);
+  0% {
+    top: 0;
   }
-  to {
-    transform: rotate(90deg);
+  50% {
+    top: 100px;
+  }
+
+  100% {
+    transform: scaleY(0.5);
   }
 }
 
@@ -36,6 +40,23 @@ body {
   animation-name: animacion-rotacion;
   animation-duration: 1s;
   animation-timing-function: linear;
-  animation-iteration-count: 1;
+  animation-iteration-count: 10;
   animation-direction: reverse;
+}
+
+@keyframes caminado {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -1000px 0;
+  }
+}
+
+.personaje {
+  width: 125px;
+  height: 168px;
+  background-image: url(img/sprite-sheet.png);
+  animation: caminado 1s infinite steps(8);
 }
