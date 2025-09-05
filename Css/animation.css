@@ -70,3 +70,140 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.sol {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, #ffd700, #ff8c00, #ff4500);
+  border-radius: 50%;
+  box-shadow: 0 0 50px #ff4500, 0 0 100px #ff8c00;
+  z-index: 1;
+}
+
+.luna {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(to bottom, #051937, #1a3f6d);
+  border-radius: 50%;
+  z-index: 2;
+  /* Animación que moverá la luna para crear el eclipse */
+  animation: eclipse 10s infinite;
+}
+
+@keyframes eclipse {
+  0% {
+    /* Comienza a la izquierda del sol */
+    transform: translateX(-300px);
+  }
+  30% {
+    /* Se acerca al sol */
+    transform: translateX(0);
+  }
+  40%,
+  60% {
+    /* Cubre completamente el sol (eclipse total) */
+    transform: translateX(0);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+  }
+  70% {
+    /* Comienza a alejarse */
+    transform: translateX(0);
+  }
+  100% {
+    /* Sale completamente del sol */
+    transform: translateX(300px);
+  }
+}
+
+.info {
+  margin-top: 300px;
+  text-align: center;
+  max-width: 600px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #ffd700;
+  margin-bottom: 20px;
+}
+
+.estrellas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.estrella {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+}
+
+/* Crear estrellas de fondo */
+.estrella:nth-child(1) {
+  top: 10%;
+  left: 20%;
+  width: 2px;
+  height: 2px;
+}
+.estrella:nth-child(2) {
+  top: 5%;
+  left: 80%;
+  width: 3px;
+  height: 3px;
+}
+.estrella:nth-child(3) {
+  top: 15%;
+  left: 50%;
+  width: 1px;
+  height: 1px;
+}
+.estrella:nth-child(4) {
+  top: 25%;
+  left: 70%;
+  width: 2px;
+  height: 2px;
+}
+.estrella:nth-child(5) {
+  top: 30%;
+  left: 30%;
+  width: 3px;
+  height: 3px;
+}
+.estrella:nth-child(6) {
+  top: 40%;
+  left: 90%;
+  width: 2px;
+  height: 2px;
+}
+.estrella:nth-child(7) {
+  top: 60%;
+  left: 10%;
+  width: 1px;
+  height: 1px;
+}
+.estrella:nth-child(8) {
+  top: 70%;
+  left: 60%;
+  width: 2px;
+  height: 2px;
+}
+.estrella:nth-child(9) {
+  top: 80%;
+  left: 40%;
+  width: 3px;
+  height: 3px;
+}
+.estrella:nth-child(10) {
+  top: 90%;
+  left: 75%;
+  width: 2px;
+  height: 2px;
+}
